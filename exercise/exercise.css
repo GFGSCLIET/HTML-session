@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    /* background-image: linear-gradient(to top, #61e3a8 0%, rgb(33, 235, 137) 100%);     */
+}
+   
+
+
+.topper{
+    text-align: center;
+}
+
+.topper > p {
+    color: rgb(39, 118, 192);
+}
+
+.topper > h1{
+    color: rgb(7, 77, 109);
+    font-size: 2rem;
+}
+
+.about{
+    background-color: rgba(8, 40, 106, 0.711);
+    background-image: linear-gradient( 174.2deg,  rgb(172, 241, 243) 7.1%, rgba(240,246,238,1) 67.4% );
+}
+
+h2{
+    color: #fefefe;
+    background-color: rgb(15, 81, 116);
+    border-radius: 25px;
+    margin: 2rem auto;
+    width: 200px;
+    text-align: center;
+}
+
+ h2:hover{
+    color: #fefefe;
+    background-color: black;
+    cursor: pointer;
+}
+.about table, .list {
+    margin-left: 10rem;
+}
+
+.about p {
+    text-align: center;
+    color: rgb(26, 27, 27);
+}
+.about h3{
+    background-color: #46b5bb;
+    padding: 0.5rem 1rem;
+    margin: 2rem;
+    border-radius: 25px;
+}
+
+.about h3:hover{
+    cursor:pointer;
+    background-color: #5a96a2;
+}
+
+.about table {
+    margin-left: 10rem;
+    cursor:pointer;
+}
+
+.about table tr:hover{
+    background-color: #2a7989;
+    font-size: 1.1rem;
+}
+
+.about table tr th:hover{
+    background-color: #43d7f5;
+}
+
+
+.about table tr img:hover{
+    background-color: #43d7f5;
+}
+
+table{
+    border-collapse: collapse;
+
+}
+
+table tr td{
+    padding: 1rem;
+}
+            
+ul {
+    list-style-type: "*";
+  }
+      
+ul li {
+    list-style: none;
+    position: relative;
+    padding: 3px 0 2px 25px;
+  }
+  
+  ul li::before {
+    content: '👉';
+    position: absolute;
+    top: 6px;
+    left: 0;
+  }
+
+  ol li::before {
+    content: '⚡';
+    position: absolute;
+    top: 6px;
+    left: 0;
+  }
+
+.query{
+    text-align: left;
+}
+
+
+.query label{
+    margin-left : 3rem ;
+}
+
+.query input{
+    margin-left: 6rem;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+  
+
+.btn-grad {
+    background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5  51%, #00d2ff  100%);
+    font-size: 1rem;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: rgb(255, 255, 255);            
+    box-shadow: 0 0 5px rgb(61, 21, 21);
+    border-radius: 10px;
+    padding: 0.5rem 2rem;
+    font-weight: 600;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; 
+    text-decoration: none;
+  }
+
+  button{
+    margin:1rem 0 1rem 13.5rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.contact{
+    background-color: #2a7989;
+    height: 100%;
+    padding: 2rem;
+}
+
+.contact h3{
+    color: aliceblue;
+}
+.contact h4{
+    color: #b7abab;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.links h4{
+  color: #43f5c6;
+}
+
+.inner-links{
+    display: flex;
+}
+.inner-links h4{
+    margin: 1.5rem;
+}
+
+.inner-links a{
+    margin: 1.5rem;
+    text-decoration: none;
+    color: #103d33;
+    /* background-color: #14063b; */
+    width: 6rem;
+    text-align: center;
+    padding: 0.51rem;
+    border-radius: 23px;
+}
+
+.inner-links p{
+    margin: 1.5rem;
+}
+
+ a.a{
+    margin-left: 2.5rem;
+}
+
+h5{
+    background-color: #000000;
+    margin: 0;
+    padding: 1.5rem;
+    color: #00d2ff;
+    text-align: center;
+    font-size: 1rem;
+}
+
+p.p{
+    margin-left: 4.6rem;
+}
+
+::placeholder{
+    color: #128eae;
+}

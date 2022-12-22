@@ -4,86 +4,116 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="exercise.css" />
     <title>Document</title>
   </head>
   <body>
-    <h1>Welcome to my Webpage</h1>
-    <p>one stop solution to any problem</p>
-    <hr />
-
-    <h2>About me</h2>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eveniet
-      ipsam itaque numquam. Voluptatibus, alias perferendis, dolor voluptatem
-      tenetur fugiat eaque facilis doloribus totam quam dolores nisi numquam
-      eveniet sed adipisci incidunt atque rem aliquid unde blanditiis molestias
-      autem odio? Labore iure expedita harum perferendis?
-    </p>
-    <h3>Personal Details:</h3>
-    <table border="2px">
-      <tr>
-        <th>Name</th>
-        <td>Udaysk</td>
-      </tr>
-      <tr>
-        <th>Age</th>
-        <td>19</td>
-      </tr>
-      <tr>
-        <th>Branch</th>
-        <td>CSE</td>
-      </tr>
-      <tr>
-        <th>College</th>
-        <td>LIET</td>
-      </tr>
-      <tr>
-        <th>My image :</th>
-        <td><img src="../person.jpg" width="200px" alt="" /></td>
-      </tr>
-    </table>
-    <h3>Educational Details :</h3>
-    <ul>
-      <li>
-        LIET
-        <ol>
-          <li>2020-24</li>
-        </ol>
-      </li>
-      <li>
-        LIET
-        <ol>
-          <li>2020-24</li>
-        </ol>
-      </li>
-      <li>
-        LIET
-        <ol>
-          <li>2020-24</li>
-        </ol>
-      </li>
-    </ul>
-    <hr />
+    <div class="topper">
+      <h1>Welcome to my Webpage</h1>
+      <p>one stop solution to any problem</p>
+    </div>
+    <div class="about">
+      <hr />
+      <h2>About me</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eveniet
+        ipsam itaque numquam. Voluptatibus, alias perferendis, dolor voluptatem
+        tenetur fugiat eaque facilis doloribus totam quam dolores nisi numquam
+        eveniet sed adipisci incidunt atque rem aliquid unde blanditiis
+        molestias autem odio? Labore iure expedita harum perferendis?
+      </p>
+      <h3>Personal Details:</h3>
+      <table border="2px">
+        <tr>
+          <th>Name</th>
+          <td>Udaysk</td>
+        </tr>
+        <tr>
+          <th>Age</th>
+          <td>19</td>
+        </tr>
+        <tr>
+          <th>Branch</th>
+          <td>CSE</td>
+        </tr>
+        <tr>
+          <th>College</th>
+          <td>LIET</td>
+        </tr>
+        <tr>
+          <th>My image :</th>
+          <td><img src="../person.jpg" width="200px" alt="" /></td>
+        </tr>
+      </table>
+      <h3>Educational Details :</h3>
+      <ul class="list">
+        <li>
+          LIET
+          <ol>
+            <li>2020-24</li>
+          </ol>
+        </li>
+        <li>
+          Narayana JR
+          <ol>
+            <li>2018-20</li>
+          </ol>
+        </li>
+        <li>
+          PSR school
+          <ol>
+            <li>2018 passed out</li>
+          </ol>
+        </li>
+      </ul>
+      <hr />
+    </div>
+    <div class="query">
     <h2>Any Queries :</h2>
     <form action="">
-      Name : <input type="text" name="" placeholder="enter name" id="" /> <br />
+      <label>Name: </label><input type="text" name="" placeholder="enter name" id="" /> <br />
       <br />
-      email : <input type="text" email="" placeholder="enter email" id="" />
-      <br /> <br />
-      Enter Your Query : <input type="text" name="" placeholder="enter your query" id="">
-      <br /><br /><input type="submit" value="submit">
-    
+      <label>Email : </label><input type="text" email="" placeholder="enter email" id="" />
+      <br />
+      <br />
+      <label>
+       Query:
+      </label><input type="text" class="query" name="" placeholder="enter your query" id="" />
+      <br /><br />
+      <button class="btn btn-grad" type="submit" >submit</button>
     </form>
-    <hr>
+  </div>
+
+
+
+    <div class="contact">
+      
+    <hr />
     <h2>Contact Me</h2>
     <h3>My Social Media Handles</h3>
-    <h4>Instagram : </h4> <a href="">click here...</a>
-    <h4>LinkedIn : </h4> <a href="">click here...</a>
+    <div class="links">
+      <div class="inner-links">
+    <h4>Instagram :</h4>
+    <a class="btn btn-grad" target="_blank" href="https://www.instagram.com/uday_sk_3/">click here</a>
+  </div>
+  <div class="inner-links ">
+    <h4>LinkedIn :</h4>
+    <a  class="btn btn-grad a" target="_blank" href="https://www.linkedin.com/in/uday-santosh-kumar-3b40a11a7/">click here</a>
+</div>
 
     <h3>Mobile Number</h3>
-    <h4>Whatsapp</h4> <p>9705795884</p>
-    <h4>Call</h4> <p>9705795884</p>
+    <div class="inner-links">
+    <h4>Whatsapp</h4>
+    <p class="btn btn-grad">9705795884</p>
+  </div>
+  <div class="inner-links">
+    <h4>Call</h4>
+    <p class="btn btn-grad p">9705795884</p>
+  </div>
+  </div>
 
-    <h5>Thank you for visiting</h5>
+  </div>
+  
+  <h5>Thank you for visiting</h5>
   </body>
 </html>
